@@ -1,1 +1,1 @@
-# Le-Groupe-Nova
+# Samples for IBM Connections Customizer on test for demonstration
