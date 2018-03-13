@@ -9,10 +9,10 @@
     {
       "payload": {
         "include-files": [
-          "helloWorld/helloWorld.user.js"
+          "demo1/helloWorld.user.js"
         ],
 	      "include-repo":{
-	       "name": "global-samples"
+	       "name": "novaliance-samples"
 	     }
       },
       "name": "Hello World Extension",
