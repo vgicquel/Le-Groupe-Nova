@@ -1,1 +1,1 @@
-# Samples for IBM Connections Customizer on test for demonstration
+# Samples for IBM Connections Customizer for demo
