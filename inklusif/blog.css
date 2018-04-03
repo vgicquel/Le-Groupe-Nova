@@ -10,6 +10,11 @@
     color: #05386b !important;
 }*/
 
-.lotusui30 .lotusTable h4 {
+.lotusui30 .lotusTable h4 a{
     color: #FF7010 !important;
+    font-size: 1.6em !important;
+}
+
+.bidiAware {
+     color: #FF7010 !important;   
 }
