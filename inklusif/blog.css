@@ -5,3 +5,7 @@
 .lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover {
     color: #FF7010;
 }
+
+.lotusui30 a.lotusActiveSort a.lotusPerson {
+    color: #05386b !important;
+}
