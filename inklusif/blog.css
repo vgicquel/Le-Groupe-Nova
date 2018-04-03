@@ -1,11 +1,15 @@
-.lotusui30 a, .lotusui30 a:visited {
+/*.lotusui30 a, .lotusui30 a:visited {
     color: #FF7010;
 }
 
-/*.lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover {
+.lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover {
     color: #FF7010;
-}*/
+}
 
 .lotusui30 a.lotusActiveSort a.lotusPerson {
     color: #05386b !important;
+}*/
+
+.lotusui30 .lotusTable h4 {
+    color: #FF7010 !important;
 }
