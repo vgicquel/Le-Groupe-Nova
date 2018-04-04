@@ -7,7 +7,7 @@
 
 if (typeof (dojo) != "undefined") {
     require(["dojo/domReady!"], function () {
-        try {
+        /*try {
             dojo.place(
                "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/novaliance-samples/blog.css?repoName=novaliance-samples\"></link>",
 				dojo.doc.head,
@@ -15,7 +15,7 @@ if (typeof (dojo) != "undefined") {
             );
         } catch (e) {
             alert('exception occurred : ' + e);
-        }
+        }*/
 		
 		try {
             dojo.place(
