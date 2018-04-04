@@ -10,6 +10,9 @@ if(typeof(dojo) != "undefined") {
         dojo.doc.head,
         "last"
     );
-    
-    dojo.place("<hr>", dojo.tbody());
+    try {
+        dojo.place("<hr>", dojo.doc.tbody,"last");
+    } catch (e) {
+            alert('exception occurred : ' + e);
+    }
 }
