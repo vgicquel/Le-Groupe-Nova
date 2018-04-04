@@ -17,12 +17,8 @@ if (typeof (dojo) != "undefined") {
             alert('exception occurred : ' + e);
         }*/
 		
-		try {
-            dojo.place(
-               "<hr>",
-				dojo.doc.tbody,
-				"last"
-            );
+	try {
+		dojo.place("<hr>", dojo.doc.body,"last");
         } catch (e) {
             alert('exception occurred : ' + e);
         }
