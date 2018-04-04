@@ -13,7 +13,7 @@
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
-                    "inklusif/blog.css"
+                    "inklusif/blog.js"
                 ],
                 "include-repo": {
                     "name": "novaliance-samples"
