@@ -10,4 +10,6 @@ if(typeof(dojo) != "undefined") {
         dojo.doc.head,
         "last"
     );
+    
+    dojo.place("<hr>", dojo.tbody());
 }
