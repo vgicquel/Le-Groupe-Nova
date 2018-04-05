@@ -22,6 +22,12 @@ if (typeof (dojo) != "undefined") {
         } catch (e) {
             alert('exception occurred : ' + e);
         }
+	    
+	try {
+		dojo.place("<hr>", "vcard","last");
+        } catch (e) {
+            alert('exception occurred : ' + e);
+        }
 		
     });
 }
