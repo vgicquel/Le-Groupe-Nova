@@ -17,14 +17,14 @@ if (typeof (dojo) != "undefined") {
             alert('exception occurred : ' + e);
         }*/
 		
-	try {
+	/*try {
 		dojo.place("<hr>", dojo.doc.body,"last");
         } catch (e) {
             alert('exception occurred : ' + e);
-        }
+        }*/
 	    
 	try {
-		dojo.place("<hr>", "vcard","last");
+		dojo.place("<hr>", "mainContent","last");
         } catch (e) {
             alert('exception occurred : ' + e);
         }
