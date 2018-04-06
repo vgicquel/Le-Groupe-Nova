@@ -24,7 +24,13 @@ if (typeof (dojo) != "undefined") {
         }
 	    
 	try {
-		dojo.place("<hr class='hr-red'>", span.vcard,"last");
+		/*dojo.place("<hr class='hr-red'>", span.vcard,"last");*/
+		
+		 dojo.query(".vcard").forEach(function(node, index, arr){
+		 	console.debug(node.innerHTML);
+		 	dojo.place("<hr class='hr-red'>", node.innerHTML,"last");
+  });
+		
         } catch (e) {
             alert('exception occurred : ' + e);
         }
