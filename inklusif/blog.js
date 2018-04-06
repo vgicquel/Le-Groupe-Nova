@@ -24,7 +24,7 @@ if (typeof (dojo) != "undefined") {
         }
 	    
 	try {
-		dojo.place("<hr class='hr-red'>", "span.vcard","last");
+		dojo.place("<hr class='hr-red'>", span.vcard,"last");
         } catch (e) {
             alert('exception occurred : ' + e);
         }
