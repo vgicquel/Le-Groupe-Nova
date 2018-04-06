@@ -24,16 +24,12 @@ if (typeof (dojo) != "undefined") {
         }
 	    
 	try {
-		/*dojo.place("<hr class='hr-red'>", span.vcard,"last");*/
-		
-		 dojo.query(".vcard").forEach(function(node, index, arr){
-		 	console.debug(node.innerHTML);
-		 	dojo.place("<hr class='hr-red'>", node.innerHTML,"last");
-  });
-		
+		console.debug(dojo.query(".vcard"));
+		dojo.place("<hr class='hr-red'>", dojo.query(".vcard"),"last");	
         } catch (e) {
-            alert('exception occurred : ' + e);
+            /*alert('exception occurred : ' + e);*/
+		console.debug('exception occurred : ' + e);
         }
 		
     });
-}
+};
