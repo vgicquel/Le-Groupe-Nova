@@ -18,13 +18,13 @@ if (typeof (dojo) != "undefined") {
         }*/
 		
 	try {
-		dojo.place("<hr>", dojo.doc.body,"last");
+		dojo.place("<hr class='hr-red'>", dojo.doc.body,"last");
         } catch (e) {
             alert('exception occurred : ' + e);
         }
 	    
 	try {
-		dojo.place("<hr>", "vcard","last");
+		dojo.place("<hr class='hr-red'>", "span.vcard","last");
         } catch (e) {
             alert('exception occurred : ' + e);
         }
