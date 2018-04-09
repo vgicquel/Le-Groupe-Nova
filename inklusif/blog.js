@@ -25,7 +25,7 @@ if (typeof (dojo) != "undefined") {
 	    
 	try {
 		console.debug(dojo.query(".vcard"));
-		dojo.place("<hr class='hr-red'>", dojo.query(".vcard"),"last");	
+		dojo.place("<hr class='hr-red'>", dojo.query(".vcard")[0],"last");	
         } catch (e) {
             /*alert('exception occurred : ' + e);*/
 		console.debug('exception occurred : ' + e);
