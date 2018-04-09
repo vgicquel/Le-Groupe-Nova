@@ -28,7 +28,7 @@ if (typeof (dojo) != "undefined") {
 		console.debug(dojo.query(".vcard"));
 		var n;
 		for (n=2; n <= dojo.query(".vcard").length; n=n+2) {
-			dojo.place("<hr class='hr-red'>", dojo.query(".vcard")[n],"last");
+			dojo.place("<hr class='hr-color'>", dojo.query(".vcard")[n],"last");
 		}
         } catch (e) {
             /*alert('exception occurred : ' + e);*/
