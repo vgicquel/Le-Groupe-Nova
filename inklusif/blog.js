@@ -26,7 +26,7 @@ if (typeof (dojo) != "undefined") {
 	try {
 		console.debug(dojo.query(".vcard"));
 		var n;
-		For (n=2; n <= dojo.query(".vcard").length; n=n+2) {
+		for (n=2; n <= dojo.query(".vcard").length; n=n+2) {
 			dojo.place("<hr class='hr-red'>", dojo.query(".vcard")[n],"last");
 		}
         } catch (e) {
