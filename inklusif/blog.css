@@ -1,8 +1,8 @@
 .lotusui30 .lotusTable h4 a{
     color: #FF7010 !important;
-    font-size: 1.6em !important;
+    font-size: 1.4em !important;
 }
 
 .hr-color {
-    color: #EBEBEB !important;  
+    border-top: 2px solid #EBEBEB !important
 }
