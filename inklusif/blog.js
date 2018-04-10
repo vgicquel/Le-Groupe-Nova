@@ -7,23 +7,7 @@
 
 if (typeof (dojo) != "undefined") {
     require(["dojo/domReady!"], function () {
-        /*try {
-            dojo.place(
-               "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/novaliance-samples/blog.css?repoName=novaliance-samples\"></link>",
-				dojo.doc.head,
-				"last"
-            );
-        } catch (e) {
-            alert('exception occurred : ' + e);
-        }*/
-	
-	/* Test <hr>
-	/*try {
-		dojo.place("<hr class='hr-red'>", dojo.doc.body,"last");
-        } catch (e) {
-            alert('exception occurred : ' + e);
-        }*/
-	    
+	/* Ajout d'une ligne horizontale après chaue entrée de blog */    
 	try {
 		console.debug(dojo.query(".vcard"));
 		var n;
