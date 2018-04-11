@@ -21,10 +21,10 @@ if (typeof (dojo) != "undefined") {
 	    
 	/* Ajout d'un espace entre les metas données du titre et le corps du blog */    
 	try {
-		console.debug(dojo.query(".entryContentContainerTD"));
+		console.debug(dojo.query(".entryContentContainer"));
 		var m;
-		for (m=0; m <= dojo.query(".entryContentContainerTD").length; m++) {
-			dojo.place("<br>", dojo.query(".entryContentContainerTD")[m],"first");
+		for (m=0; m <= dojo.query(".entryContentContainer").length; m++) {
+			dojo.place("<br>", dojo.query(".entryContentContainer")[m],"first");
 		}
         } catch (e) {
             /*alert('exception occurred : ' + e);*/
