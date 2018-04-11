@@ -18,6 +18,18 @@ if (typeof (dojo) != "undefined") {
             /*alert('exception occurred : ' + e);*/
 		console.debug('exception occurred : ' + e);
         }
+	    
+	/* Ajout d'un espace entre les metas données du titre et le corps du blog */    
+	try {
+		console.debug(dojo.query(".entryContentContainerTD"));
+		var m;
+		for (m=0; m <= dojo.query(".entryContentContainerTD").length; m++) {
+			dojo.place("<br>", dojo.query(".entryContentContainerTD")[m],"first");
+		}
+        } catch (e) {
+            /*alert('exception occurred : ' + e);*/
+		console.debug('exception occurred : ' + e);
+}
 		
     });
 };
