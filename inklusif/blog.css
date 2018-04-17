@@ -5,7 +5,7 @@
 }
 
 .hr-color {
-    border-top: 2px solid #EBEBEB !important;
+    border-top: 1px solid #EBEBEB !important;
 }
 
 /* Sur la page blog / entry */
@@ -13,3 +13,4 @@
     color: #FF7010 !important;
     font-size: 1.2em !important;
 }
+q
