@@ -1,13 +1,15 @@
+// Sur la page blogs
 .lotusui30 .lotusTable h4 a{
     color: #FF7010 !important;
     font-size: 1.2em !important;
 }
 
+.hr-color {
+    border-top: 2px solid #EBEBEB !important;
+}
+
+// Sur la page blog / entry
 .lotusui30 .lotusTable h4 {
     color: #FF7010 !important;
     font-size: 1.2em !important;
-}
-
-.hr-color {
-    border-top: 2px solid #EBEBEB !important
 }
