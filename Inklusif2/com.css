@@ -1,4 +1,8 @@
 /* Sur la page de présentation */
-.lotusTable h4 a{
+/*.lotusui30 .lotusTable h4 a{
+    color: #FF7010 !important;
+}*/
+
+.communities-widget-appearance .lotusui30 div:not(#profilePaneLeft):not(#profilePaneRight):not(#profileBody):not(#tabsWidget1_widgetId_container) > .lotusWidget2 .lotusTable h4 a {
     color: #FF7010 !important;
 }
