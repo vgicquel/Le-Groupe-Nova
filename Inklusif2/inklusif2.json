@@ -1,0 +1,27 @@
+{
+    "id": "09090ee0-42e6-11e8-9004-39b9c3f3625b",
+    "name": "Homepage Community custo",
+    "title": "Homepage Community custo",
+    "description": "Modify homepage community css with css/js files",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "id": "70a548b2-1d12-4242-8424-208745f1e69c",
+            "name": "Inklusif2",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "inklusif2/com.css",
+                    "inklusif2/com.js"
+                ],
+                "include-repo": {
+                    "name": "novaliance-samples"
+                }
+            },
+            "path": "communities",
+            "application": "Homepage Community custo"
+        }
+    ]
+}
