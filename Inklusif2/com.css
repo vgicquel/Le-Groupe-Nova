@@ -1,9 +1,16 @@
 /* Sur la page de présentation */
 
+/* Titre Blogs / Files couleur orange */
 .communities-widget-appearance .lotusui30 div:not(#profilePaneLeft):not(#profilePaneRight):not(#profileBody):not(#tabsWidget1_widgetId_container) > .lotusWidget2 .lotusTable h4 a {
     color: #FF7010 !important;
 }
 
+/* Taille font Blogs / Files */
 .communities-widget-appearance .lotusui30 div:not(#profilePaneLeft):not(#profilePaneRight):not(#profileBody):not(#tabsWidget1_widgetId_container) > .lotusWidget2 a.lotusAction {
     font-size: 10px !important;
+}
+
+/* Afficher orange galerie */
+.communities-widget-appearance .lotusui30 .lotusWidget2 .galleryViewAllHint {
+    color: #FF7010 !important;
 }
