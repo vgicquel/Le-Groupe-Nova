@@ -6,8 +6,10 @@
 //
 
 if (typeof (dojo) != "undefined") {
+	console.log("Erreur typeof");
+	
     require(["dojo/domReady!"], function () {
-	/* Ajout d'une ligne horizontale après chaue entrée de blog */    
+	/* Ajout d'une ligne horizontale après chaque entrée de blog */    
 	try {
 		console.debug(dojo.query(".entryContentContainerTD"));
 		var n;
