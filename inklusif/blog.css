@@ -1,14 +1,15 @@
-/* Sur la page blogs */
+/* Blog : Taille et couleur titres des entrées */
 .lotusui30 .lotusTable h4 a{
     color: #FF7010 !important;
     font-size: 1.2em !important;
 }
 
+/* barre horizontale */
 .hr-color {
     border-top: 1px solid #FEFEFE !important;
 }
 
-/* Sur la page blog / entry */
+/* Blog entry : taille et couleur titre entrée */
 .lotusui30 .lotusTable h4 {
     color: #FF7010 !important;
     font-size: 1.2em !important;
