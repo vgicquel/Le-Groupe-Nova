@@ -5,7 +5,7 @@ if (typeof (dojo) != "undefined") {
 		console.debug(dojo.query(".colspanInHikari"));
 		var n;
 		for (n=0; n <= dojo.query(".colspanInHikari").length; n++) {
-			dojo.place("<br>", dojo.query(".colspanInHikari")[n],"last");
+			dojo.place("<hr class='hr-color'>", dojo.query(".colspanInHikari")[n],"last");
 		}
         } catch (e) {
             /*alert('exception occurred : ' + e);*/
