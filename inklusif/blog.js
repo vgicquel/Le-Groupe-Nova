@@ -9,6 +9,7 @@ if (typeof (dojo) != "undefined") {
 	console.log("Erreur typeof");
 	
     require(["dojo/domReady!"], function () {
+	    
 	/* Ajout d'une ligne horizontale après chaque entrée de blog */    
 	try {
 		console.debug(dojo.query(".entryContentContainerTD"));
@@ -17,7 +18,7 @@ if (typeof (dojo) != "undefined") {
 			dojo.place("<hr class='hr-color'>", dojo.query(".entryContentContainerTD")[n],"last");
 		}
         } catch (e) {
-            /*alert('exception occurred : ' + e);*/
+            	/*alert('exception occurred : ' + e);*/
 		console.debug('exception occurred : ' + e);
         }
 	    
@@ -28,10 +29,10 @@ if (typeof (dojo) != "undefined") {
 		for (m=0; m <= dojo.query(".entryContentContainer").length; m++) {
 			dojo.place("<br>", dojo.query(".entryContentContainer")[m],"first");
 		}
-        } catch (e) {
-            /*alert('exception occurred : ' + e);*/
+	} catch (e) {
+            	/*alert('exception occurred : ' + e);*/
 		console.debug('exception occurred : ' + e);
-}
+	}
 		
     });
 };
