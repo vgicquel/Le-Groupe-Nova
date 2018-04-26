@@ -5,33 +5,31 @@
 // @date April, 2018
 //
 
-if (typeof (dojo) != "undefined") {
-	console.log("Erreur typeof");
-	
-    require(["dojo/domReady!"], function () {
-	/* Ajout d'une ligne horizontale après chaque entrée de blog */    
-	try {
-		console.debug(dojo.query(".entryContentContainerTD"));
-		var n;
-		for (n=0; n <= dojo.query(".entryContentContainerTD").length; n++) {
-			dojo.place("<hr class='hr-color'>", dojo.query(".entryContentContainerTD")[n],"last");
+if(typeof(dojo) != "undefined") {
+    
+    var waitFor = function(callback, elXpath, maxInter, waitTime) {
+        if(!maxInter) var maxInter = 20;  // number of intervals before expiring
+        if(!waitTime) var waitTime = 100;  // 1000=1 second
+        if(!elXpath) return;
+        
+        var waitInter = 0;  // current interval
+        var intId = setInterval(function(){
+            if (++waitInter<maxInter && !dojo.query(elXpath).length) return;
+            clearInterval(intId);
+            callback();
+        }, waitTime);
+    };
+    
+    waitFor(
+        function(){
+			var n;
+			for (n=0; n <= dojo.query(".entryContentContainerTD").length; n++) {
+				dojo.place("<hr class='hr-color'>", dojo.query(".entryContentContainerTD")[n],"last");
+			}
+			var m;
+			for (m=0; m <= dojo.query(".entryContentContainer").length; m++) {
+				dojo.place("<br>", dojo.query(".entryContentContainer")[m],"first");
+			}
 		}
-        } catch (e) {
-            /*alert('exception occurred : ' + e);*/
-		console.debug('exception occurred : ' + e);
-        }
-	    
-	/* Ajout d'un espace entre les metas données du titre et le corps du blog */    
-	try {
-		console.debug(dojo.query(".entryContentContainer"));
-		var m;
-		for (m=0; m <= dojo.query(".entryContentContainer").length; m++) {
-			dojo.place("<br>", dojo.query(".entryContentContainer")[m],"first");
-		}
-        } catch (e) {
-            /*alert('exception occurred : ' + e);*/
-		console.debug('exception occurred : ' + e);
+	);
 }
-		
-    });
-};
