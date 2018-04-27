@@ -4,6 +4,12 @@
     font-size: 1.2em !important;
 }
 
+/* Espace entre titre/auteur et contenu du blog */
+.blog .entryContentContainer {
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+}
+
 /* barre horizontale */
 .hr-color {
     border-top: 1px solid #FEFEFE !important;
