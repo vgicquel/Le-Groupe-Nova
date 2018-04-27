@@ -13,7 +13,9 @@
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
-                    "inklusif/blog.js"
+                    "inklusif/commonTools.js",
+                    "inklusif/blog.js",
+                    "inklusif/blog5.js",
                     "inklusif/blog.css"
                 ],
                 "include-repo": {

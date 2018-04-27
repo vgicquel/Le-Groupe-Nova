@@ -15,7 +15,8 @@
     border-top: 1px solid #FEFEFE !important;
 }*/
 .lotusui30_layout .lotusContent .lotusTable tr td.eventDiv, .lotusui30_layout .lotusContent .lotusTable tr td:first-child {
-    border-bottom: 1px solid #FEFEFE !important;
+    border-bottom: 1px solid #EAEAEA !important;
+    width: 500px;
 }
 
 /* Blog entry : taille et couleur titre entrée */
