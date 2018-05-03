@@ -11,8 +11,3 @@
 .communities-widget-appearance .lotusui30 div:not(#profilePaneLeft):not(#profilePaneRight):not(#profileBody):not(#tabsWidget1_widgetId_container) > .lotusWidget2 a.lotusAction {
     font-size: 12px !important;
 }
-
-/* Afficher orange galerie */
-.communities-widget-appearance .lotusui30 .lotusWidget2 .galleryViewAllHint {
-    color: #FF7010 !important;
-}
