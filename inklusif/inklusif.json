@@ -16,7 +16,8 @@
                     "inklusif/commonTools.js",
                     "inklusif/blog.js",
                     "inklusif/blog5.js",
-                    "inklusif/blog.css"
+                    "inklusif/blog.css",
+                    "inklusif/blog-inklusif.css"
                 ],
                 "include-repo": {
                     "name": "novaliance-samples"
