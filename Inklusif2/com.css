@@ -11,3 +11,8 @@
 .communities-widget-appearance .lotusui30 div:not(#profilePaneLeft):not(#profilePaneRight):not(#profileBody):not(#tabsWidget1_widgetId_container) > .lotusWidget2 a.lotusAction {
     font-size: 12px !important;
 }
+
+/* Taille lien tout afficher */
+.communities-widget-appearance .lotusui30 .lotusWidget2 .galleryViewAllHint {
+    font-size: 12px !important;
+}
