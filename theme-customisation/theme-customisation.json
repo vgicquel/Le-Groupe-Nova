@@ -1,0 +1,30 @@
+{
+    "name": "Theme",
+    "title": "Theme",
+    "description": "Theme customisation pour présentation",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "id": "a4bc0078-09dd-47a2-a654-545cf0dd877c",
+            "name": "extension-theme-customisation",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-repo": {
+                    "name": "novaliance-samples"
+                },
+                "include-files": [
+                    "theme-customisation/theme-customisation.css"
+                ],
+                "match": {
+                    "user-name": [
+                        "Vincent GICQUEL"
+                    ]
+                }
+            },
+            "path": "homepage",
+            "application": "Theme"
+        }
+    ]
+}
