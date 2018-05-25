@@ -22,6 +22,6 @@ BlogJS.do(function () {
 			dojo.place("<br>", dojo.query(".entryContentContainer")[m],"first");
 		}
 	
-	)
-	
-} 
+	}
+	  
+)
