@@ -13,10 +13,6 @@
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
-                    "inklusif/commonTools.js",
-                    "inklusif/blog.js",
-                    "inklusif/blog5.js",
-                    "inklusif/blog.css",
                     "inklusif/blog-inklusif.css"
                 ],
                 "include-repo": {
