@@ -1,7 +1,8 @@
 /* Blog : Taille et couleur titres des entrées */
 .lotusui30 .lotusTable h4 a{
     color: #FF7010 !important;
-    font-size: 1em !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
 }
 
 /* Espace entre titre/auteur et contenu du blog */
@@ -21,7 +22,7 @@
 /* Blog entry : taille et couleur titre entrée */
 .lotusui30 .lotusTable h4 {
     color: #FF7010 !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
 }
 
 /* Espace entre modifier et commentaires */
