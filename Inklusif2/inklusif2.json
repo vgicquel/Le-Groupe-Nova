@@ -17,6 +17,13 @@
                 ],
                 "include-repo": {
                     "name": "novaliance-samples"
+                },
+                "match": {
+                    "user-name": [
+                        "Mathieu FABIEN",
+                        "Vincent GICQUEL",
+                        "test agefiph"
+                    ]
                 }
             },
             "path": "communities",
