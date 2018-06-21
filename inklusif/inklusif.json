@@ -14,7 +14,8 @@
             "payload": {
                 "include-files": [
                     "inklusif/blog-inklusif.css",
-                    "inklusif/commonTools.js"
+                    "inklusif/commonTools.js",
+                    "inklusif/blog-inklusif.js"
                 ],
                 "include-repo": {
                     "name": "novaliance-samples"
