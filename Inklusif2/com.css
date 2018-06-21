@@ -4,6 +4,7 @@
 .communities-widget-appearance .lotusui30 div:not(#profilePaneLeft):not(#profilePaneRight):not(#profileBody):not(#tabsWidget1_widgetId_container) > .lotusWidget2 .lotusTable h4 a {
     color: #FF7010 !important;
     font-size: 16px !important;
+    font-weight: normal !important;
 }
 
 /* Taille font lien d'actions */
