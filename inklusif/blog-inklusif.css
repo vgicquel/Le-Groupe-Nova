@@ -30,6 +30,11 @@
     margin-top: 30px !important;
 }
 
+/* Espace entre modifier et commentaires */
+#addCommentFormContainer {
+    margin-bottom: 80px !important;
+}
+
 /* Taille des boutons Ajouter un commentaire, Editer et Autres actions*/
 .lotusui30 a.lotusAction {
     font-size: 0.9em !important;
