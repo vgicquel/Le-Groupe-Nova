@@ -5,13 +5,18 @@
     font-weight: normal !important;
 }
 
-/* Espace entre titre/auteur et contenu du blog */
+/* Blog : Taille des polices sur les entrées identiques */
+.lotusui30 .lotusColRight .lotusMeta {
+    font-size: 10px;
+}
+
+/* Blog : Espace entre titre/auteur et contenu du blog */
 .blog .entryContentContainer {
     margin-top: 40px !important;
     margin-bottom: 30px !important;
 }
 
-/* barre horizontale */
+/* Blog : Barre horizontale */
 .lotusui30_layout .lotusContent .lotusTable tr td.eventDiv, .lotusui30_layout .lotusContent .lotusTable tr td:first-child {
     border-bottom: 1px solid #EAEAEA !important;
     width: 500px;
@@ -25,12 +30,12 @@
     font-size: 14px !important;
 }
 
-/* Espace entre modifier et commentaires */
+/* Blog : Espace entre modifier et commentaires */
 #addCommentFormContainer {
     margin-bottom: 80px !important;
 }
 
-/* Taille des boutons Ajouter un commentaire, Editer et Autres actions*/
+/* Blog : Taille des boutons Ajouter un commentaire, Editer et Autres actions*/
 .lotusui30 a.lotusAction {
     font-size: 0.9em !important;
 }
