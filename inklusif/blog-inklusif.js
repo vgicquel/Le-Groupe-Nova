@@ -1,9 +1,13 @@
 let BlogJS = new __cBill_waitForDojo('BlogJS'); 
 BlogJS.do(function () { 
 	
+		/* Test de la présence de LotusFirstCell */
+	
 		/* Recherche de la balise */    
 		console.debug(dojo.query(".inlinelist"));
 		var n;
+	
+		/* Remplacement */
 		for (n=0; n <= dojo.query(".inlinelist").length; n++) {
 		  dojo.place("<div class='lotusActionBar lotusBtnContainer aria_toolbar' role='toolbar' style='float:none' aria-label='Actions de blogue'>" + 
 			     "<span class='lotusBtn lotusLeft'>" +
