@@ -7,7 +7,7 @@
 
 /* Blog : Taille des polices sur les entrées identiques */
 .lotusui30 .lotusColRight .lotusMeta {
-    font-size: 10px;
+    font-size: 10px !important;
 }
 
 /* Blog : Espace entre titre/auteur et contenu du blog */
