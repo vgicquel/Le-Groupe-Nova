@@ -3,16 +3,16 @@ BlogJS.do(function () {
 	
 		/* Test de la présence de LotusFirstCell */
 		console.debug(dojo.query("div[style='border-top: 2px solid black;height:45px;']"));
+		
+		dojo.place("div[style='border-top: 0px solid black;height:45px;']",dojo.query("div[style='border-top: 2px solid black;height:45px;']"),"replace")doj;
 	
-		/* Test de la présence de LotusFirstCell */
-		console.debug(dojo.query("div[border-top='2px solid black;']"));
-	
+		
 		/* Recherche de la balise */    
 		console.debug(dojo.query(".inlinelist"));
 		var n;
 	
 		/* Remplacement */
-		for (n=0; n <= dojo.query(".inlinelist").length; n++) {
+		/*for (n=0; n <= dojo.query(".inlinelist").length; n++) {
 		  dojo.place("<div class='lotusActionBar lotusBtnContainer aria_toolbar' role='toolbar' style='float:none' aria-label='Actions de blogue'>" + 
 			     "<span class='lotusBtn lotusLeft'>" +
 			     "<a href='https://apps.na.collabserv.com/blogs/a080f064-36ea-4105-8121-7a6a78acef94/entry/Inklusif_septieme_partie?lang=fr_fr' title='Entrée précédente' hastooltip='dijit_Tooltip_3711'>Entrée précédente</a>" +
@@ -24,7 +24,7 @@ BlogJS.do(function () {
 			     "<a>Entrée suivante</a>" +
 			     "</span>" +
 			     "</div>", dojo.query(".inlinelist")[n],"replace");
-		}
+		}*/
 
 	}
 	  
