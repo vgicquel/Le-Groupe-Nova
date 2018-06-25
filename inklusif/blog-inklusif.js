@@ -3,7 +3,7 @@ BlogJS.do(function () {
 	
 		/* Suppression de la ligne noire */
 		console.debug(dojo.query("div[style='border-top: 2px solid black;height:45px;']"));
-		dojo.place("<div style='border-top: 0px solid black;height:45px;'></div>",dojo.query("div[style='border-top: 2px solid black;height:45px;']"),"replace");
+		dojo.place("<div style='border-top: 0px solid black;height:45px;'>",dojo.query("div[style='border-top: 2px solid black;height:45px;']")[0],"replace");
 	
 		
 		/* Recherche de la balise */    
