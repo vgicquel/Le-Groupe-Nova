@@ -4,6 +4,9 @@ BlogJS.do(function () {
 		/* Test de la présence de LotusFirstCell */
 		console.debug(dojo.query("div[style='border-top: 2px solid black;height:45px;']"));
 	
+		/* Test de la présence de LotusFirstCell */
+		console.debug(dojo.query("div[border-top='2px solid black;']"));
+	
 		/* Recherche de la balise */    
 		console.debug(dojo.query(".inlinelist"));
 		var n;
