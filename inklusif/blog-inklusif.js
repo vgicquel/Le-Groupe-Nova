@@ -1,9 +1,8 @@
 let BlogJS = new __cBill_waitForDojo('BlogJS'); 
 BlogJS.do(function () { 
 	
-		/* Test de la présence de LotusFirstCell */
+		/* Suppression de la ligne noire */
 		console.debug(dojo.query("div[style='border-top: 2px solid black;height:45px;']"));
-		
 		dojo.place("div[style='border-top: 0px solid black;height:45px;']",dojo.query("div[style='border-top: 2px solid black;height:45px;']"),"replace")doj;
 	
 		
