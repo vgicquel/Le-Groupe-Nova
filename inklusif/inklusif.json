@@ -1,25 +1,25 @@
 {
-    "id": "bb18c870-3713-11e8-ae27-4f74ae0694f3",
     "name": "Blog Customization",
     "title": "Inklusif",
-    "description": "Imodify blog css",
+    "description": "Modify blog css",
     "services": [
         "Customizer"
     ],
+    "state": "enabled",
     "extensions": [
         {
             "id": "d980650b-53c8-4ad0-99f7-2bf45b931ba3",
             "name": "Inklusif",
             "type": "com.ibm.customizer.ui",
             "payload": {
+                "include-repo": {
+                    "name": "novaliance-samples"
+                },
                 "include-files": [
                     "inklusif/blog-inklusif.css",
                     "inklusif/commonTools.js",
                     "inklusif/blog-inklusif.js"
                 ],
-                "include-repo": {
-                    "name": "novaliance-samples"
-                },
                 "match": {
                     "user-name": [
                         "Mathieu FABIEN",
@@ -29,7 +29,8 @@
                 }
             },
             "path": "blogs",
-            "application": "Blog Customization"
+            "application": "Blog Customization",
+            "state": "enabled"
         }
     ]
 }
