@@ -24,7 +24,9 @@ BlogJS.do(function () {
 	
 		/* Recherche de la balise */    
 		console.debug(dojo.query(".inlinelist"));
-		var n;
+		/*var n;*/
+	
+		console.debug("div[class='' role='navigation' style='font-size: 0.9em;' aria-label=Page navigation']";);
 	
 		/* Remplacement */
 		/*for (n=0; n <= dojo.query(".inlinelist").length; n++) {
@@ -44,6 +46,8 @@ BlogJS.do(function () {
 		/* Suppression de la ligne noire */
 		console.debug(dojo.query("div[style='border-top: 2px solid black;height:45px;']"));
 		/*dojo.place("<div style='border-top: 0px solid black;height:45px;'>",dojo.query("div[style='border-top: 2px solid black;height:45px;']")[0],"replace");*/
+	
+	
 	
 	}
 	  
