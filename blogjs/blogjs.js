@@ -10,17 +10,17 @@ BlogJS.do(function () {
 
 		/* Ajout d'une ligne horizontale après chauque entrée de blog */    
 		console.debug(dojo.query(".entryContentContainerTD"));
-		var n;
+		/*var n;
 		for (n=0; n <= dojo.query(".entryContentContainerTD").length; n++) {
 		  dojo.place("<hr class='hr-color'>", dojo.query(".entryContentContainerTD")[n],"last");
-		}
+		}*/
 
 		/* Ajout d'un espace entre les metas données du titre et le corps du blog */   
 		console.debug(dojo.query(".entryContentContainer"));
-		var m;
+		/*var m;
 		for (m=0; m <= dojo.query(".entryContentContainer").length; m++) {
 			dojo.place("<br>", dojo.query(".entryContentContainer")[m],"first");
-		}
+		}*/
 	
 		/* Recherche de la balise */    
 		console.debug(dojo.query(".inlinelist"));
