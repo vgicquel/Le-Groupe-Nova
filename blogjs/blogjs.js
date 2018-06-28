@@ -26,7 +26,7 @@ BlogJS.do(function () {
 		console.debug(dojo.query(".inlinelist"));
 		/*var n;*/
 	
-		console.debug("div[class='' role='navigation' style='font-size: 0.9em;' aria-label=Page navigation']";);
+		console.debug(dojo.query("div[class='' role='navigation' style='font-size: 0.9em;' aria-label=Page navigation']"));
 	
 		/* Remplacement */
 		/*for (n=0; n <= dojo.query(".inlinelist").length; n++) {
