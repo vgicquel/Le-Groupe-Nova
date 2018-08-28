@@ -1,0 +1,31 @@
+{
+    "name": "Theme Apave",
+    "title": "Theme Apave",
+    "description": "Theme customisation pour Apave",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "id": "15bba7ae-6acb-4268-869e-ac8a269adbb2",
+            "name": "ThemeApave",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-repo": {
+                    "name": "novaliance-samples"
+                },
+                "include-files": [
+                    "theme-apave/theme.css"
+                ],
+                "match": {
+                    "user-name": [
+                        "Vincent GICQUEL",
+                        "Geraldine DEQUEKER-FIXARIS"
+                    ]
+                }
+            },
+            "path": "homepage",
+            "application": "Theme Apave"
+        }
+    ]
+}
