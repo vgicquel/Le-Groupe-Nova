@@ -1,0 +1,34 @@
+{
+    "name": "Agefiph Blog",
+    "title": "Agefiph Blog",
+    "description": "Modifie le blog - fichier css",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "id": "8d9a6849-1086-4b89-a851-c9fc3a9e4fee",
+            "name": "Extension Blog",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "blog/blog.css",
+                    "blog/commonTools.js",
+                    "blog/blog.js"
+                ],
+                "include-repo": {
+                    "name": "novaliance-samples"
+                },
+                "match": {
+                    "user-name": [
+                        "Vincent GICQUEL",
+                        "Mathieu FABIEN",
+                        "test agefiph"
+                    ]
+                }
+            },
+            "path": "blogs",
+            "application": "Blog"
+        }
+    ]
+}
