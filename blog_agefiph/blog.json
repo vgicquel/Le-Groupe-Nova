@@ -12,9 +12,9 @@
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
-                    "blog/blog.css",
-                    "blog/commonTools.js",
-                    "blog/blog.js"
+                    "blog_agefiph/blog.css",
+                    "blog_agefiph/commonTools.js",
+                    "blog_agefiph/blog.js"
                 ],
                 "include-repo": {
                     "name": "novaliance-samples"
