@@ -1,10 +1,11 @@
 {
-    "name": "Homepage",
-    "title": "Homepage",
-    "description": "Modification du style de la page d'accueil des communautés",
+    "name": "Homepage Community custo",
+    "title": "Homepage Community custo",
+    "description": "Modify homepage community css with css/js files",
     "services": [
         "Customizer"
     ],
+    "state": "enabled",
     "extensions": [
         {
             "id": "8e2daad4-62a8-4682-82a8-02cd0cb3fbe2",
@@ -16,10 +17,18 @@
                 ],
                 "include-repo": {
                     "name": "novaliance-samples"
+                },
+                "match": {
+                    "user-name": [
+                        "Mathieu FABIEN",
+                        "Vincent GICQUEL",
+                        "test agefiph"
+                    ]
                 }
             },
             "path": "communities",
-            "application": "Homepage"
+            "application": "Homepage Community custo",
+            "state": "enabled"
         }
     ]
 }
