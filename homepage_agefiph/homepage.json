@@ -1,0 +1,25 @@
+{
+    "name": "Homepage",
+    "title": "Homepage",
+    "description": "Modification du style de la page d'accueil des communautés",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "id": "8e2daad4-62a8-4682-82a8-02cd0cb3fbe2",
+            "name": "Extension Home page",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "homepage_agefiph/homepage.css"
+                ],
+                "include-repo": {
+                    "name": "novaliance-samples"
+                }
+            },
+            "path": "communities",
+            "application": "Homepage"
+        }
+    ]
+}
