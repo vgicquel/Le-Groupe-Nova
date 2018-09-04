@@ -7,6 +7,8 @@
 let BlogJS = new __cBill_waitForDojo('BlogJS'); 
 BlogJS.do(function () { 
   
+	console.debug(dojo.query(".org _myorg"));
+	
   	}
 	  
 )
