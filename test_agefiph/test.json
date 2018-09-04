@@ -1,0 +1,34 @@
+{
+    "name": "Agefiph Test",
+    "title": "Agefiph Test",
+    "description": "Test customisation pour Agefiph",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "id": "7d490ad0-0fb0-452b-944c-f99420c9739a",
+            "name": "AgefiphTest",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "test_agefiph/test.css",
+                    "test_agefiph/commonTools.js",
+                    "test_agefiph/test.js"
+                ],
+                "include-repo": {
+                    "name": "novaliance-samples"
+                },
+                "match": {
+                    "user-name": [
+                        "Vincent GICQUEL",
+                        "Mathieu FABIEN",
+                        "test agefiph"
+                    ]
+                }
+            },
+            "path": "forums",
+            "application": "Agefiph Test"
+        }
+    ]
+}   
