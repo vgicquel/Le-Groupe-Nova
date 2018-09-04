@@ -8,6 +8,8 @@ let TestJS = new __cBill_waitForDojo('TestJS');
 TestJS.do(function () { 
   
 	console.debug(dojo.query(".org _myorg"));
+	console.debug(dojo.query(".lotusTabContainer"));
+	
 	
   	}
 	  
