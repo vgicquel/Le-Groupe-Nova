@@ -7,13 +7,13 @@
 let TestJS = new __cBill_waitForDojo('TestJS'); 
 TestJS.do(function () { 
   
-	console.debug(dojo.query(".org"));
-	console.debug(dojo.query(".lotusTabContainer"));
-	console.debug(dojo.query(".communities"));
-	console.debug(dojo.query(".activities"));
-	console.debug(dojo.query(".files"));
-	console.debug(dojo.query(".joinmeeting"));
+		/* Recherche de la balise */    
+		console.debug(dojo.query(".inlinelist"));
+		/*var n;*/
 	
+		console.debug(dojo.query("div[class='' role='navigation' style='font-size: 0.9em;' aria-label=Page navigation']"));
+	
+		console.debug(dojo.query("ul[class='inlinelist lotusInlinelist']"));
 	
   	}
 	  
