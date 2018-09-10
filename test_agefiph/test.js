@@ -11,9 +11,6 @@ TestJS.do(function () {
 		console.debug(dojo.query("ul[class='inlinelist lotusInlinelist']"));
 		
 		var list = document.getElementsByClassName("inlinelist lotusInlinelist")[0].getElementsByTagName("LI");
-			for (i=0; i < list.length; i++) {
-			//alert(list[i].innerHTML);
-		}
 		
 		if (list[0].innerHTML.includes("</a>")) {
 				alert(list[0].innerHTML);
