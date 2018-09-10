@@ -13,13 +13,11 @@ TestJS.do(function () {
 		var list = document.getElementsByClassName("inlinelist lotusInlinelist")[0].getElementsByTagName("LI");
 		
 		if (list[0].innerHTML.includes("</a>")) {
-				alert(list[0].innerHTML);
 		} else {
 			list[0].innerHTML = "<a>" + list[0].innerHTML + "</a>";
 		}
 		
 		if (list[2].innerHTML.includes("</a>")) {
-				alert(list[2].innerHTML);
 		} else {
 			list[2].innerHTML = "<a>" + list[2].innerHTML + "</a>";
 		}
