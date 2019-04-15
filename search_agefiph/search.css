@@ -14,4 +14,7 @@
     border-bottom-color: #EB6608 !important;
 }
 
-
+/* Appliquer */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusForm a {
+   color: #1B4859 !important;
+}
