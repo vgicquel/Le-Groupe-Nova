@@ -47,3 +47,9 @@
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover {
     border-left-color: #FFF !important;
 }
+
+.lotusui30 .lotusBtn, .lotusui30 .lotusBtn:hover {
+	background-color: #EB6608 !important;
+	color: #FFFFFF !important;
+	box-shadow: none !important;
+}
