@@ -1,0 +1,32 @@
+{
+    "name": "Agefiph Search",
+    "title": "Agefiph Search",
+    "description": "AGEFIPH : Customisation page de recherches.",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "name": "SearchCustomization",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "search_agefiph/search.css",
+                    "search_agefiph/commonTools.js",
+                    "search_agefiph/search.js"
+                ],
+                "include-repo": {
+                    "name": "novaliance-samples"
+                },
+                "match": {
+                    "user-name": [
+                        "Vincent GICQUEL",
+                        "Mathieu FABIEN",
+                        "test agefiph"
+                    ]
+                }
+            },
+            "path": "search"
+        }
+    ]
+}
