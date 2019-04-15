@@ -48,6 +48,22 @@
 	border-left-color: #FFF !important;
 }
 
+/* Recherche avancée - gauche */
+.lotusui30_layout .lotusColLeft::after {
+	border-left-color: #1B4859 !important;
+	border-right-color: #1B4859 !important;
+	background-color: #1B4859 !important;
+}	
+
+.lotusui30_layout .lotusColLeft::after {
+	border-left-color: #1B4859 !important;
+	border-right-color: #1B4859 !important;	
+}
+
+.lotusui30_layout .lotusColLeft {
+	background-color: #1B4859 !important;	
+}
+
 /* Recherche avancée - Astuce */
 .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText, 
 .lotusui30 .lotusColLeft .lotusInfoBox, 
@@ -67,3 +83,5 @@
 	color: #FFFFFF !important;
 	box-shadow: none !important;
 }
+
+
