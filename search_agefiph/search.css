@@ -1,38 +1,38 @@
 /* Menu de gauche */
 .lotusui30 .lotusMenu li.lotusSelected {
-    border-left: 4px solid #EB6608 !important;
+	border-left: 4px solid #EB6608 !important;
 }
 
 /* Texte de recherche */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input {
-   color: #1B4859 !important;
-   font-weight: bold !important;
+	color: #1B4859 !important;
+	font-weight: bold !important;
 }
 
 /* Barre de recherche */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch {
-    border-bottom-color: #EB6608 !important;
+	border-bottom-color: #EB6608 !important;
 }
 
 /* Appliquer */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusForm a {
-   color: #1B4859 !important;
+	color: #1B4859 !important;
 }
 
 /* En tete contenu recherche */
 .lotusui30 .lotusHeader h1 {
-    color: #1B4859 !important;
-    font-weight: bold !important;
+	color: #1B4859 !important;
+	font-weight: bold !important;
 }
 
 /* Paging */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusPaging {
-    color: #1B4859 !important;
+	color: #1B4859 !important;
 }
 
 /* Paging actif */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icSelected {
-    color: #EB6608 !important;
+	color: #EB6608 !important;
 }
 
 
@@ -40,14 +40,20 @@
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a,
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, 
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected {
-    color: #1B4859 !important;
+	color: #1B4859 !important;
 	font-weight: bold !important;
 }
 
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover {
-    border-left-color: #FFF !important;
+	border-left-color: #FFF !important;
 }
 
+/* Recherche avancée - select clear all */
+.lotusui30 a {
+	color: #EB6608 !important;
+}	
+
+/* Recherche avancée - bouton rechercher */
 .lotusui30 .lotusBtn, .lotusui30 .lotusBtn:hover {
 	background-color: #EB6608 !important;
 	color: #FFFFFF !important;
