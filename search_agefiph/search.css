@@ -18,3 +18,9 @@
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusForm a {
    color: #1B4859 !important;
 }
+
+/* En tete contenu recherche */
+.lotusui30 .lotusHeader h1 {
+    color: #1B4859 !important;
+    font-weight: bold !important;
+}
