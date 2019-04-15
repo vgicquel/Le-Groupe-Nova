@@ -1,0 +1,10 @@
+/* Menu de gauche */
+.lotusui30 .lotusMenu li.lotusSelected {
+    border-left: 4px solid #EB6608 !important;
+}
+
+
+/* Barre de recherche */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch {
+    border-bottom-color: #EB6608 !important;
+}
