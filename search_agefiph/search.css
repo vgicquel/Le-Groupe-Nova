@@ -24,3 +24,26 @@
     color: #1B4859 !important;
     font-weight: bold !important;
 }
+
+/* Paging */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusPaging {
+    color: #1B4859 !important;
+}
+
+/* Paging actif */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icSelected {
+    color: #EB6608 !important;
+}
+
+
+.search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchTitle a, 
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a,
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, 
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected {
+    color: #1B4859 !important;
+	font-weight: bold !important;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover {
+    border-left-color: #FFF !important;
+}
