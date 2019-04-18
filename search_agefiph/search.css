@@ -3,6 +3,12 @@
 	border-left: 4px solid #EB6608 !important;
 }
 
+/* bordure haut et bas hover */
+.lotusui30 .lotusColLeft .lotusMenu li a:hover {
+	border-top: none !important;
+	border-bottom: none !important;	
+}
+
 /* Lien menu gauche */
 .lotusui30 .lotusMenu li.lotusSelected a, 
 .lotusui30 .lotusMenu li.lotusSelected a:focus,
