@@ -41,14 +41,15 @@
 }
 
 /* Texte contenu recherche */
-.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusSort {
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusSort,
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a{
 	color: #000000 !important;
 }
 
 .lconnSearchResults h4 a b {
 	font-weight: bold !important;
 	font-size: 14px !important;
-}	
+}
 
 /* Paging */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusPaging {
