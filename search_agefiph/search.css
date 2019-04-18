@@ -40,6 +40,16 @@
     border-top: 1px solid #1B4859 !important;
 }
 
+/* Texte contenu recherche */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusSort {
+	color: #000000 !important;
+}
+
+.lconnSearchResults h4 a b {
+	font-weight: bold !important;
+	font-size: 14px !important;
+}	
+
 /* Paging */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusPaging {
 	color: #1B4859 !important;
