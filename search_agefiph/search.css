@@ -8,6 +8,7 @@
 .lotusui30 .lotusMenu li.lotusSelected a:focus,
 .lotusui30 .lotusMenu li a,
 .lotusui30 .lotusMenu li a:hover,
+.lotusui30 .lotusSection h2
 {
 		color: #FFFFFF !important;
 }
@@ -32,6 +33,11 @@
 .lotusui30 .lotusHeader h1 {
 	color: #1B4859 !important;
 	font-weight: bold !important;
+}
+
+/* Barre contenu recherche */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable {
+    border-top: 1px solid #1B4859 !important;
 }
 
 /* Paging */
