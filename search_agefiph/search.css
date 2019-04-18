@@ -3,6 +3,15 @@
 	border-left: 4px solid #EB6608 !important;
 }
 
+/* Lien menu gauche */
+.lotusui30 .lotusMenu li.lotusSelected a, 
+.lotusui30 .lotusMenu li.lotusSelected a:focus,
+.lotusui30 .lotusMenu li a,
+.lotusui30 .lotusMenu li a:hover,
+{
+		color: #FFFFFF !important;
+}
+
 /* Texte de recherche */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input {
 	color: #1B4859 !important;
@@ -76,11 +85,7 @@
 /*.lotusui30 a {
 	color: #EB6608 !important;
 }*/
-.lotusui30 .lotusMenu li.lotusSelected a, 
-.lotusui30 .lotusMenu li.lotusSelected a:focus
-{
-		color: #FFFFFF !important;
-}
+
 
 /* Recherche avancée - bouton rechercher */
 .lotusui30 .lotusBtn, .lotusui30 .lotusBtn:hover {
