@@ -60,6 +60,10 @@
 	color: #EB6608 !important;
 }
 
+.lotusui30 a, .lotusui30 a:hoover {
+    color: #1B4859;
+}
+
 
 .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchTitle a, 
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a,
