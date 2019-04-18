@@ -9,7 +9,8 @@
 .lotusui30 .lotusMenu li a,
 .lotusui30 .lotusMenu li a:hover,
 .lotusui30 .lotusSection h2,
-.lotusui30_body {
+.lotusui30_body,
+.lotusui30_layout .lotusColLeft a {
 	color: #FFFFFF !important;
 }
 
