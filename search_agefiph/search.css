@@ -16,7 +16,8 @@
 .lotusui30 .lotusMenu li a,
 .lotusui30 .lotusMenu li a:hover,
 .lotusui30 .lotusSection h2,
-.lotusui30_layout .lotusColLeft a {
+.lotusui30_layout .lotusColLeft a,
+.lotusui30_layout .lotusColLeft .lconnEmpty {
 	color: #FFFFFF !important;
 }
 
@@ -60,7 +61,7 @@
 
 /* Precent suivant barre recherche */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .lotusFirst,
-.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icnext {
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icNext {
 	color: #1B4859 !important;
 }
 
@@ -78,7 +79,6 @@
     color: #1B4859;
 }
 
-
 .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchTitle a, 
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a,
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, 
@@ -91,6 +91,12 @@
 	border-left-color: #FFF !important;
 }
 
+.lotusui30 .lotusPaging ul li,
+.lotusui30 .lotusPaging ul li a,
+.lotusui30 .lotusFeeds a.lotusFeed {
+    color: #1B4859 !important;
+}
+ 
 /* Recherche avancée - gauche */
 .lotusui30_layout .lotusColLeft::after {
 	border-left-color: #1B4859 !important;
