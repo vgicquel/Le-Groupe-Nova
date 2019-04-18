@@ -112,10 +112,18 @@
 
 /* Recherche avancée - Astuce */
 .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText, 
-.lotusui30 .lotusColLeft .lotusInfoBox, 
 .lotusui30 .lotusColLeft .lotusInfoBox h3 {
 	color: #FFFFFF !important;
 }
+
+.lotusui30 .lotusColLeft .lotusInfoBox {
+	color: #708090 !important;
+}	
+
+.lotusui30 .lotusColLeft .lotusInfoBox {
+	background-color: #1B4859 !important;
+	border: 1px solid #1B4859 !important;
+}	
 
 /* Recherche avancée - bouton rechercher */
 .lotusui30 .lotusBtn, .lotusui30 .lotusBtn:hover {
