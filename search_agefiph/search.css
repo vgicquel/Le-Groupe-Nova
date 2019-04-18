@@ -4,7 +4,8 @@
 }
 
 /* bordure haut et bas hover */
-.lotusui30 .lotusColLeft .lotusMenu li a:hover {
+.lotusui30 .lotusColLeft .lotusMenu li a:hover,
+.lotusui30 .lotusColLeft .lotusMenu li a:focus {
 	border-top: none !important;
 	border-bottom: none !important;	
 }
@@ -121,5 +122,3 @@
 	color: #FFFFFF !important;
 	box-shadow: none !important;
 }
-
-
