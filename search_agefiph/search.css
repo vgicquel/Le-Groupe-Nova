@@ -73,9 +73,14 @@
 
 
 /* Recherche avancée - select clear all */
-.lotusui30 a {
+/*.lotusui30 a {
 	color: #EB6608 !important;
-}	
+}*/
+.lotusui30 .lotusMenu li.lotusSelected a, 
+.lotusui30 .lotusMenu li.lotusSelected a:focus
+{
+		color: #FFFFFF !important;
+}
 
 /* Recherche avancée - bouton rechercher */
 .lotusui30 .lotusBtn, .lotusui30 .lotusBtn:hover {
