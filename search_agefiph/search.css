@@ -4,6 +4,8 @@
 }
 
 /* bordure haut et bas hover */
+.lotusui30 .lotusMenu li.lotusSelected a,
+.lotusui30 .lotusMenu li.lotusSelected a:hover,
 .lotusui30 .lotusColLeft .lotusMenu li a:hover,
 .lotusui30 .lotusColLeft .lotusMenu li a:focus {
 	border-top: none !important;
@@ -104,11 +106,6 @@
 	background-color: #1B4859 !important;
 }	
 
-.lotusui30_layout .lotusColLeft::after {
-	border-left-color: #1B4859 !important;
-	border-right-color: #1B4859 !important;	
-}
-
 .lotusui30_layout .lotusColLeft {
 	background-color: #1B4859 !important;	
 }
@@ -119,13 +116,6 @@
 .lotusui30 .lotusColLeft .lotusInfoBox h3 {
 	color: #FFFFFF !important;
 }
-
-
-/* Recherche avancée - select clear all */
-/*.lotusui30 a {
-	color: #EB6608 !important;
-}*/
-
 
 /* Recherche avancée - bouton rechercher */
 .lotusui30 .lotusBtn, .lotusui30 .lotusBtn:hover {
