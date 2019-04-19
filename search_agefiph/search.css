@@ -23,6 +23,11 @@
 	color: #FFFFFF !important;
 }
 
+.lotusui30 .lotusColLeft .lotusInlinelist li {
+    border-left-color: #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
 /* Texte de recherche */
 .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input {
 	color: #1B4859 !important;
