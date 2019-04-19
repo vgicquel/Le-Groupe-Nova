@@ -5,11 +5,16 @@
 
 /* bordure haut et bas hover */
 .lotusui30 .lotusMenu li.lotusSelected a,
-.lotusui30 .lotusMenu li.lotusSelected a:hover,
 .lotusui30 .lotusColLeft .lotusMenu li a:hover,
 .lotusui30 .lotusColLeft .lotusMenu li a:focus {
 	border-top: none !important;
 	border-bottom: none !important;	
+}
+
+.lotusui30 .lotusMenu li.lotusSelected a:focus, 
+.lotusui30 .lotusMenu li.lotusSelected a:hover {
+	border-top: 1px solid transparent !important;
+	border-bottom: 1px solid transparent !important;
 }
 
 /* Lien menu gauche */
@@ -138,3 +143,5 @@
 	color: #FFFFFF !important;
 	box-shadow: none !important;
 }
+
+/* Checkbox */
