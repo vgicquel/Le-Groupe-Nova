@@ -144,7 +144,23 @@
 	box-shadow: none !important;
 }
 
+
 /* Aspect des checkboxes */
+/* Cachons la case à cocher */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+	position: absolute;
+	left: -9999px;
+}
+ 
+/* on prépare le label */
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+	position: relative; /* permet de positionner les pseudo-éléments */
+	padding-left: 25px; /* fait un peu d'espace pour notre case à venir */
+	cursor: pointer;    /* affiche un curseur adapté */
+}
+
 /* :before sert à créer la case à cocher */
 [type="checkbox"]:not(:checked) + label:before,
 [type="checkbox"]:checked + label:before {
