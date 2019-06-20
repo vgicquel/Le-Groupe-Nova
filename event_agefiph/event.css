@@ -1,0 +1,6 @@
+/* Event : Taille et couleur titres des entrées */
+.lotusui30 .lotusTable h4, .lotusui30 .lotusTable h4 a {
+    color: #FF7010 !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
