@@ -13,3 +13,9 @@
 .communities-widget-appearance .lotusui30 .lotusWidget2 .galleryViewAllHint {
     font-size: 12px !important;
 }
+/* Event */
+.communities-widget-appearance .lotusui30 .lotusWidget2 .eventsDiv .bidiAware {
+    color: #FF7010 !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
