@@ -1,0 +1,31 @@
+{
+    "name": "Agefiph Event",
+    "title": "Agefiph Event",
+    "description": "Modifie l'event - fichier css",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "name": "Extension Event",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-repo": {
+                    "name": "novaliance-samples"
+                },
+                "include-files": [
+                    "event_agefiph/event.css"
+                ],
+                 "match": {
+                    "user-name": [
+                        "Vincent GICQUEL",
+                        "Mathieu FABIEN",
+                        "test agefiph"
+                    ]
+                }
+            },
+            "path": "communities",
+            "application": "Event"
+        }
+    ]
+}
